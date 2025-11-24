@@ -1,4 +1,4 @@
-
+readme_markdown = """
 ## 1. Project Title
 The Modular Seasonal Crop Advisor (MSCA)
 
@@ -48,7 +48,10 @@ Perform the following manual tests to ensure all functional and non-functional r
 | **Negative Test (Error)** | `monsoon` | Displays an error message: "is not a recognized season." |
 | **Flow Control** | `exit` | Application terminates gracefully with a thank you message.
 """
+
+def get_readme_content():
+    """Returns the content of the README.md file as a string."""
     return readme_markdown
 
 if __name__ == "__main__":
-    print(get_readme_content())# Seasonal_crop_advisor
+    print(get_readme_content())
